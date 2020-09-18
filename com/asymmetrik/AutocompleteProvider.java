@@ -35,6 +35,10 @@ public class AutocompleteProvider {
             if (!word.equals("I")) {
                 word = word.toLowerCase();
             }
+            //capitalizes solo lowercase "i" to prevent duplicate "I" and "i"
+            if(word.equals("i")) {
+                word = word.toUpperCase();
+            }
 
             //updates pre-existing candidates
             boolean hasWord = false;

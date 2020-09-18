@@ -90,6 +90,10 @@ public class Main {
         boolean isOn = true;
         while (isOn) {
             String input = scanner.nextLine();
+            //lower case input except for solo capital I
+            if(!input.equals("I")) {
+                input = input.toLowerCase();
+            }
 
             if (input.equals("0")) {
                 isOn = false;
