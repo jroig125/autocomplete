@@ -103,6 +103,8 @@ public class Main {
             } else {
                 TreeSet<Candidate> finalList = AutocompleteProvider.getWords(input);
 
+                //formats output of suggestions, including comma-separated word list with confidence
+                //for each word
                 StringJoiner joiner = new StringJoiner(", ");
                 for (Candidate candidate : finalList) {
                     String item = candidate.getWord() + " " + "(" + candidate.getConfidence() + ")";
