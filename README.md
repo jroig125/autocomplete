@@ -17,7 +17,7 @@ To run the program, enter the following into the command line from the same dire
 ```bash
 java -jar Autocomplete.jar
 ```
-Note: the .java files can be found for review by accessing src/com/asymmetrik from the root folder of the project Autocomplete.
+Note: the .java files can be found for review by accessing com/asymmetrik from the root folder of the project Autocomplete.
 ### Usage
 
 When the program is initialized, the main menu will be displayed with initial directions. The menu will display options to pursue one of the two available modes: `Training Mode` and `Autocomplete Mode`. Training Mode is used to input training texts to the algorithm. Autocomplete Mode is used to input word fragments to receive Autocomplete suggestions. You can select Training Mode by typing 't' and pressing enter on the main menu. You can select Autocomplete Mode by typing 'a' and pressing enter on the main menu. You may also quit the program from the main menu by typing '0' and pressing enter (the use of 0 avoids confusion with the text-based functions of the program). Quitting the program will delete all training data. You may freely switch between modes while retaining all input training text within the same execution of the program. Switching out of a mode does not delete the training data.
