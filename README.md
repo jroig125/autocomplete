@@ -33,7 +33,7 @@ In autocomplete mode, type a partially completed word and press enter. In respon
 The word list will be organized primarily by confidence that it is the next word needed based on the expectations set by the training text. If candidate words share the same confidence, shorter words are displayed first, since these are more likely to be function words or other common content words. If the candidate words share the same confidence and word length, they are organized alphabetically, which causes no conflicts since there are no repeated words in the list. Plural versions of words are considered separate words. When you are done receiving suggestions, type '0' and press enter to return to the main menu.
 
 ### Test Input
-Test input is available in the main directory under TestInput.txt. Note that the program is not designed to read a text file, so the contents must be copied and pasted into Training Mode in order to be used.
+Test input is available in the main directory under TestInput.txt. Note that the program is not designed to read a text file directly, so the contents of any training text must be copied from the source and pasted into Training Mode in order to be used. 
 
 ### Sample Output
 After entering the test code above in Training Mode, the following is expected from Autocomplete Mode. The output line contains each suggested completion ordered by confidence. In this case, "word" is the most likely next word.
