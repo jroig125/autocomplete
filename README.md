@@ -7,7 +7,7 @@ To build the program, enter the following into the command line in the directory
 
 ```bash
 git clone https://gitlab.com/jroig125/autocomplete.git
-cd src
+cd autocomplete
 javac com/asymmetrik/*
 jar cmf MANIFEST.MF Autocomplete.jar com/asymmetrik/*
 java -jar Autocomplete.jar  
