@@ -10,7 +10,6 @@ git clone https://github.com/jroig125/autocomplete.git
 cd autocomplete
 javac com/asymmetrik/*
 jar cmf MANIFEST.MF Autocomplete.jar com/asymmetrik/*
-java -jar Autocomplete.jar  
 ```
 
 ### Run
