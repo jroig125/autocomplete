@@ -6,7 +6,7 @@ Autocomplete
 To build the program, enter the following into the command line in the directory you wish to work out of.
 
 ```bash
-git clone https://gitlab.com/jroig125/autocomplete.git
+git clone https://github.com/jroig125/autocomplete.git
 cd autocomplete
 javac com/asymmetrik/*
 jar cmf MANIFEST.MF Autocomplete.jar com/asymmetrik/*
